@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+    <jsp:include page="myheader.html"/>
    convert a string to uppercase: <%= new String("Hello world").toUpperCase() %>
    <br/><br/>
    25 multiplied by 4 = <%= 25*4 %>

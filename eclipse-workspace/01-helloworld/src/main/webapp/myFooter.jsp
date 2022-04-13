@@ -7,13 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <jsp:include page="myheader.html"/>
-    <h3>hello world</h3>
-    <%
-       for(int i=1;i<=5;i++) {
-    	   out.println("<br/> welcome -" + i);
-       }
-    %>
-    <jsp:include page="myFooter.jsp"/>
+   <p>
+      Last update: <%= new java.util.Date() %>
 </body>
 </html>

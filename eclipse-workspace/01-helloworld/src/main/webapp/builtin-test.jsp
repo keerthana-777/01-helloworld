@@ -8,8 +8,12 @@
 </head>
 <body>
    <jsp:include page="myheader.html"/>
-  <h3>hello world</h3>
-  The time on the server is <%= new java.util.Date() %>
-  <jsp:include page="myFooter.jsp"/>
+  <h3>JSP Built-in-objects:</h3>
+  
+  what is the browser the user is using: <%= request.getHeader("user-Agent") %>
+   <br/> <br/>
+  Host: <%= request.getHeader("Host") %>
+  <br/><br/>
+  Language used in browser: <%= request.getLocale() %>
 </body>
 </html>
