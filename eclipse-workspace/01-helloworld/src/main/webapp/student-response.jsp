@@ -7,14 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-   <jsp:include page="myheader.html"/>
-    <%!
-    
-       String makeItLower(String data){
-    	return data.toLowerCase();
-    }
-    %>
-    
-    Lower case "Hello World !! =" <%= makeItLower("Hello World") %>
+	The student registration is confirmed: <%= request.getParameter("firstName") %> <%= request.getParameter("lastName") %> !!
+	<br /><br />
+	Welcome - ${param.lastName}, ${param.firstName}
 </body>
 </html>
