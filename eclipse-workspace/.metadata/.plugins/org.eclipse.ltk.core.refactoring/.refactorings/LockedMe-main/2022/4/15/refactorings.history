@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LockedMe-main/main&apos; to &apos;HOME&apos;" description="Rename resource &apos;main&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main" name="HOME" stamp="1649312272813" updateReferences="true"/>
+</session>

@@ -1,0 +1,6 @@
+<%@ page import="com.jspdemo.*" %>
+<html>
+  <body>
+       testing the utils: <%= HelperUtils.upperCaseIt("Jsp demo is cool") %>
+  </body>
+</html>

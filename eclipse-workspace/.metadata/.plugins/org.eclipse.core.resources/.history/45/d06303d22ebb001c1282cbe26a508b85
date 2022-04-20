@@ -1,0 +1,6 @@
+<%@ page import="com.jspdemo.*" %>
+<html>
+  <body>
+       testing the utils:
+  </body>
+</html>

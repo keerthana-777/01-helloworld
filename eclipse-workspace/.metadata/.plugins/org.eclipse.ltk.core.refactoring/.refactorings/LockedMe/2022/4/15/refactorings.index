@@ -1,0 +1,5 @@
+1649317772002	Rename method 'createMainFolderIfNotPresent'
+1649318605961	Rename method 'handleWelcomeScreenInput'
+1649318676227	Rename method 'displayMenu'
+1649318754661	Rename method 'displayFileMenuOptions'
+1649318943112	Rename local variable 'input'
